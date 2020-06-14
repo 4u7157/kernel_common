@@ -114,6 +114,7 @@ struct nf_conn {
 
 	/* Storage reserved for other modules, must be the last member */
 	union nf_conntrack_proto proto;
+
 };
 
 static inline struct nf_conn *

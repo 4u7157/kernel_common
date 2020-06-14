@@ -99,3 +99,7 @@ all.config
 
 # fetched Android config fragments
 android/configs/android-*.cfg
+
+# Samsung
+!init/vmm.elf
+!firmware/gnss_firmware.bin
